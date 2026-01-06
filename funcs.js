@@ -3,7 +3,7 @@ const $$ = document.querySelectorAll.bind(document);
 const PLAYER_STORAGE_KEY = "Thuc_PLAYER"
 
 const cd = $('.cd')
-const heading = $('header h2')
+const heading = $('header .song-name')
 const cdThumb = $('.cd-thumb')
 const audio = $('#audio')
 const playBtn = $('.btn-toggle-play')
@@ -55,7 +55,7 @@ const app = {
           },
           {
             name: "Dành Cho Em",
-            singer: "Raftaar",
+            singer: "Hoàng Tôn",
             path: "assets/musics/Dành Cho Em.mp3",
             image:
               "assets/images/danhchoem.jpg"
